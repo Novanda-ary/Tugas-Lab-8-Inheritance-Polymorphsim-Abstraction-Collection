@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritance__Polymorphsim__Abstraction___Collection_2685
+namespace Inheritance__Polymorphsim__Abstraction___Collection_2695
 {
     class Sales : Karyawan
     {
