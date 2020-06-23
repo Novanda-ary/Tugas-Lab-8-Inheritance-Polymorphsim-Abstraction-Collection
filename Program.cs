@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritance__Polymorphsim__Abstraction___Collection_2685
+namespace Inheritance__Polymorphsim__Abstraction___Collection_2695
 {
     class Program
     {
@@ -13,21 +13,21 @@ namespace Inheritance__Polymorphsim__Abstraction___Collection_2685
             Console.Title = "Tugas Lab 8 - Polymorphsim, Inheritance, Abstraction & Collection";
 
             KaryawanTetap karyawanTetap     = new KaryawanTetap();
-            karyawanTetap.Nik               = "19.11.2685";
-            karyawanTetap.Nama              = "Deny Agung Prasetyo";
-            karyawanTetap.GajiBulanan       = 4000000;
+            karyawanTetap.Nik               = "19.11.2695";
+            karyawanTetap.Nama              = "Novanda ary praditya";
+            karyawanTetap.GajiBulanan       = 6000000;
 
             KaryawanHarian karyawanHarian   = new KaryawanHarian();
-            karyawanHarian.Nik              = "123-321-345";
-            karyawanHarian.Nama             = "Deny Prasetyo";
-            karyawanHarian.JumlahJamKerja   = 8;
-            karyawanHarian.UpahPerJam       = 13000;
+            karyawanHarian.Nik              = "19.11.9999";
+            karyawanHarian.Nama             = "Novanda";
+            karyawanHarian.JumlahJamKerja   = 6;
+            karyawanHarian.UpahPerJam       = 10000;
 
             Sales sales                     = new Sales();
-            sales.Nik                       = "123-333-347";
-            sales.Nama                      = "Agung Prasetyo";
-            sales.JumlahPenjualan           = 30;
-            sales.Komisi                    = 45000;
+            sales.Nik                       = "19.11.9998";
+            sales.Nama                      = "Ary";
+            sales.JumlahPenjualan           = 20;
+            sales.Komisi                    = 50000;
 
             List<Karyawan> listKaryawan = new List<Karyawan>();
 
